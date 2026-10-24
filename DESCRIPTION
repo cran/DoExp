@@ -1,0 +1,34 @@
+Package: DoExp
+Type: Package
+Title: Design of Experiments with Hasse Diagrams and Anatomy Tables
+Version: 0.1.0
+Depends: R (>= 4.1.0)
+Authors@R: 
+    c(person("Leonardo", "Peressim", email = "leonardoperessim@usp.br",
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-5378-6903")),
+    person("Renata", "Sermarini", email = "ralcarde@usp.br",
+           role = "aut",
+           comment = c(ORCID = "0000-0001-6425-9626")))
+Description: Constructs Hasse diagrams and anatomy tables from structural
+    formulas and experimental data sets. Hasse diagrams may display sources
+    of variation and their degrees of freedom for general experimental
+    structures. For orthogonal designs, the package can also compute core
+    matrices associated with quadratic forms for sums of squares and
+    contributions to the expected mean squares. Anatomy tables display the
+    degrees of freedom and A-efficiencies associated with the sources of
+    variation.
+License: GPL (>= 3)
+Encoding: UTF-8
+RoxygenNote: 7.3.3
+Imports: dplyr, ggplot2, knitr, psych, purrr, rlang, stringr, tibble,
+        utils
+Suggests: dae, patchwork, rmarkdown
+NeedsCompilation: no
+Packaged: 2026-10-14 22:32:07 UTC; Leo Peressim
+Author: Leonardo Peressim [aut, cre] (ORCID:
+    <https://orcid.org/0000-0002-5378-6903>),
+  Renata Sermarini [aut] (ORCID: <https://orcid.org/0000-0001-6425-9626>)
+Maintainer: Leonardo Peressim <leonardoperessim@usp.br>
+Repository: CRAN
+Date/Publication: 2026-10-24 09:30:08 UTC
